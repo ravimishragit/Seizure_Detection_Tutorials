@@ -39,20 +39,28 @@ Other databases exist but have their limitations:
 - Multilayer Perceptrons
 - Recurrent Neural Networks
 
-I'd like to give a special shout out to Hvass Laboratories (http://www.hvass-labs.org/) whos amazing Tutorials on TensorFlow were the inspiration for creating my own tutorials. 
+I'd like to give a massive thank you to the open source community for all the hard work that is put into all the python language, interactive computing resourses, and packages used to make this project a reality. I am continually learning about coding and one day, when I feel more competent in my coding abilities, I hope to contibute to such great work. Also thank you to Hvass Laboratories (http://www.hvass-labs.org/) whos Tutorials on TensorFlow were the inspiration for creating my own tutorials.
 
 ## Getting Started
 
+Due to the size of these notebooks you may need to use [nbviewer](https://nbviewer.jupyter.org/) to view the notebooks. To do this all you need to do is copy the url for the notebook (e.g. https://github.com/Eldave93/Seizure_Detection_Tutorials/blob/master/Feature_Extraction_01_Epileptologie.ipynb) into the URL bar on the [nbviewer](https://nbviewer.jupyter.org/) website.
+
 ### Prerequisites
 
-The easiest way of using these notebooks is to go onto Google Colaboratory...
+The easiest way of interacting with these notebooks is to use [Google Colaboratory](https://colab.research.google.com).
 
-However if you want to interact with them locally on your machine then I advise you download Anaconda<sup>20</sup> with Python 3 (See http://docs.anaconda.com/anaconda/install/) to get you started. Anaconda makes it easy to create a virtual environment in which to install and manage Python packages. It also provides an easy interface in which to launch the Jupyter Notebook interface (the Anaconda Navigator).
+*"Colaboratory allows you to use and share Jupyter notebooks with others without having to download, install, or run anything on your own computer other than a browser"*<sup>25</sup>.
+
+I recommend Google Colaboratory mostly because of the size of the RAM available and the access to GPU's via the cloud. When working on the later notebooks, which use the TensorFlow package, the notebook will be ran a tonne faster! You can open the notebook in Colaboratory by clicking on the "Open in Colab" button at the top of the notebook.
+
+Another option is to use [Binder](https://mybinder.org/). Binder is a open-source cloud deployment for Jupyter notebooks (see https://mybinder.readthedocs.io/en/latest/ for details). Although completely free it does have relatively limited computational resources, with a maximum of 2GB of RAM. This means some of the later notebooks which use larger datasets will likely not fit into memory.
+
+If you want to interact with the notebooks locally on your machine then I advise you download Anaconda<sup>20</sup> with Python 3 (See http://docs.anaconda.com/anaconda/install/) to get you started. Anaconda makes it easy to create a virtual environment in which to install and manage Python packages. It also provides an easy interface in which to launch the Jupyter Notebook interface (the Anaconda Navigator).
 
 - http://docs.anaconda.com/anaconda/install/
 - http://docs.anaconda.com/anaconda/navigator/
 
-### Installing
+### Installing Packages
 
 The notebooks start with a method to automatically install the required packages into an environment. If working on these locally I encourage you to use a virtual environment. All you need to do is create a new environment and launch the Jupyter Notebook application from that environment (See http://docs.anaconda.com/anaconda/navigator/ for more information). 
 
@@ -164,3 +172,5 @@ There are a number of challenges to overcome when developing a machine learning 
 23. Banko, M., & Brill, E. (2001, July). Scaling to very very large corpora for natural language disambiguation. In Proceedings of the 39th annual meeting on association for computational linguistics (pp. 26-33). Association for Computational Linguistics.
 
 24. Halevy, A., Norvig, P., & Pereira, F. (2009). The unreasonable effectiveness of data. IEEE Intelligent Systems, 24(2), 8-12.
+
+25. https://research.google.com/colaboratory/faq.html
