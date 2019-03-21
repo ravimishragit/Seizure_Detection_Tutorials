@@ -39,7 +39,10 @@ Other databases exist but have their limitations:
 - Multilayer Perceptrons
 - Recurrent Neural Networks
 
-I'd like to give a massive thank you to the open source community for all the hard work that is put into all the python language, interactive computing resourses, and packages used to make this project a reality. I am continually learning about coding and one day, when I feel more competent in my coding abilities, I hope to contibute to such great work. Also thank you to Hvass Laboratories (http://www.hvass-labs.org/) whos Tutorials on TensorFlow were the inspiration for creating my own tutorials.
+I'd like to give a massive thank you to the open source community for all the hard work that is put into all the python language, interactive computing resourses, and packages used to make this project a reality. I am continually learning about coding and one day, when I feel more competent, I hope to contibute to such great work. Also thank you to Hvass Laboratories (http://www.hvass-labs.org/) whos Tutorials on TensorFlow were the inspiration for creating my own tutorials.
+
+**NOTE**
+- As of writing (21/03/19) this is an ongoing project which I work on alongside my PhD. Although many of the notebooks have had their first drafts finished, it may take time to make them all available as I tidy them up. Please be patient as I update this repository over the coming months.
 
 ## Getting Started
 
